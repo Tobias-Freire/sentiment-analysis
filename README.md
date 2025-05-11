@@ -15,9 +15,16 @@ A project to analyze, classificate and rank sentiments in texts.
     "text": "your feedback here"
   }
   ```
-- Example using curl:
+- Example request using curl:
   ```bash
   curl -X POST "http://localhost:8000/analyze_sentiment" -H "Content-Type: application/json" -d '{"text": "This is a great product!"}'
+  ```
+- Example response:
+  ```json
+  {
+    "label": "5 stars",
+    "score": 0.7255880236625671
+  }
   ```
 
 ### How to run the tests
