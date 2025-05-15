@@ -28,6 +28,3 @@ A project to analyze, classificate and rank sentiments in texts.
       "general_classification": "POSITIVE"
   }
   ```
-
-### How to run the tests
-- Run the command `pytest tests/tests.py`
